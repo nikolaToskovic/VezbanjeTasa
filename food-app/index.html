@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food website</title>
+        <link rel='stylesheet' type='text/css' href='css/style.css'>
+    </head>
+    <body>
+        <header>
+            <div>
+                <span id="name">iFood</span>
+                <section>
+                    <span class='recipe-number'>0</span>
+                    <span class="recipe-name">results</span>
+                </section>
+            </div>
+        </header>
+        <main>
+                <h1>SEARCH RECIPE</h1>
+                <section id="main-section">
+                    <input type="text" name="text" placeholder="KEYWORD">
+                    <select id="select-health" name="health">
+                        <option value disabled selected>HEALTH</option>
+                        <option value='alcohol-free'>Alcohol-free</option>
+                        <option value='vegan'>Vegan</option>
+                        <option value='vegetarian'>Vegetarian</option>
+                        <option value='Peanuts'>Peanuts</option>
+                    </select>
+                    <select id="select-diet" name="diet">
+                        <option value disabled selected>DIET</option>
+                        <option value='balanced'>Balanced</option>
+                        <option value='high-protein'>High-protein</option>
+                        <option value='low-carb'>Low-carb</option>
+                        <option value='low-fat'>Low-fat</option>
+                    </select>
+                    <button>Search</button>
+                    <div id="cart-item"></div>
+                </section>
+                <div id="images"></div>
+        </main>
+
+        <script src='js/script.js'></script>
+    </body>
+</html>

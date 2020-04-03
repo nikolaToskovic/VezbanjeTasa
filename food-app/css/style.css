@@ -1,0 +1,157 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+header div > span {
+    font-size: 40px;
+    cursor: pointer;
+    color: #7aca25;
+}
+
+.recipe-number {
+    font-size: 26px;
+    color: rgba(250, 170, 33, 1);
+}
+
+#name::first-letter {
+    color: rgba(250, 170, 33, 1);
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255, 0.8);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    padding: 30px;
+    color: #7aca25;
+}
+
+
+h1::first-letter {
+    color: rgba(250, 170, 33, 1);
+}
+
+#main-section {
+    display: grid;
+    padding: 0 100px;
+}
+
+input , select, button {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+button {
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+   background-color: #7aca25;
+   color: #fff;
+   transition: all .3s ease;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+}
+
+.container-class {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 25px;
+}
+
+h3 {
+    color: #333
+}
+
+.labels {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calories {
+    position: relative;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #7aca25;
+    text-align: center;
+    color: #fff;
+    left: 65px;
+    top: 35px;
+}
+
+.label {
+    padding: 5px;
+    background-color: #fff;
+    color: #FAAA21;
+    margin: 3px;
+    margin-left: 0;
+    font-size: 10px;
+    border-radius: 10px;
+    border-color: #FAAA21;
+    border: solid 1px;
+}
